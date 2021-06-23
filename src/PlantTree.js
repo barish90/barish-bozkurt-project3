@@ -1,5 +1,5 @@
 import firebase from './firebase';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import './Plant.css';
 import { useLottie } from "lottie-react";
 import animation from "./newdata.json";
@@ -47,7 +47,7 @@ function PlantTree () {
               <form action="submit">
                 <label htmlFor="planterName">Please enter your name</label>
                 <input onChange={handleChange} placeholder="Your name" type="text" id="planterName" value={userInput} required="required"/>
-                <button class="button"onClick={handleClick}>Plant a Tree</button>
+                <button className="button"onClick={handleClick}>Plant a Tree</button>
                 {/* <div id="tree-animation" style={{ width: 200, height: 200 }}>
                 </div> */}
                 {/* <useLottie options={animation} style={{ width: 200, height: 400 }}/> */}
