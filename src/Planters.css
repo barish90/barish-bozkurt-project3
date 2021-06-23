@@ -1,0 +1,25 @@
+.planters {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+      }
+h2 {
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    width: 100%;
+}
+ul {
+    display: flex;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+li {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 40px;
+    font-size: 34px;
+}
