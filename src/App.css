@@ -55,6 +55,10 @@ footer {
   font-family: "Saira Condensed", sans-serif;
   margin-top: 200px;
 }
+footer a {
+  color: rgb(145, 174, 236);
+  text-decoration: none;
+}
 @media only screen and (max-width: 600px) {
   video {
     width: 100%;
