@@ -20,7 +20,8 @@ function App() {
       <PlantTree />
       <Planters />
       <footer>
-        <p>Created by Barish Bozkurt at Juno College</p>
+        <a href="http://bbozkurt.com"></a>
+        <p> &copy; Created by <a href="http://bbozkurt.com"> Barish Bozkurt</a>  at Juno College</p>
       </footer>
     </div>
   );
