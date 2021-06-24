@@ -1,18 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
 .App-plant-tree {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 
 .App-plant-tree label {
+  visibility: hidden;
   display: flex;
-  font-size: 34px;
   margin-bottom: 50px;
+}
+.about h2 {
+  margin: 0;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  font-family: "Nunito", sans-serif;
+}
+.about h3 {
+  margin: 0;
+  color: black;
+  text-transform: capitalize;
+  margin: 50px 0 20px 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.about p {
+  font-size: 1.4rem;
+  padding: 0 10px;
 }
 #planterName {
   margin: 20px;
-  font-size: 18px;
+  font-size: 1.2rem;
   padding: 10px 10px 10px 5px;
   display: block;
   width: 300px;
@@ -47,9 +69,10 @@
   -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
   box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
   text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
-  color: white;
-  font-size: 14px;
-  font-family: Georgia, serif;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   text-decoration: none;
   vertical-align: middle;
 }
@@ -57,8 +80,44 @@
   border-top-color: #2d6b04;
   background: #2d6b04;
   color: #fafafa;
+  cursor: pointer;
 }
 .button:active {
   border-top-color: #1b435e;
   background: #1b435e;
+}
+.animation {
+  font-size: 1.6rem;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }

@@ -1,25 +1,54 @@
 .planters {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-      }
+  background-color: rgb(212, 228, 219);
+}
 h2 {
-    display: flex;
-    font-size: 45px;
-    justify-content: center;
-    width: 100%;
+  font-size: 3rem;
+  color: black;
+  padding-top: 50px;
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+}
+.banner h2 {
+  display: flex;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+  font-family: "Nunito", sans-serif;
 }
 ul {
-    display: flex;
-    padding: 20px 10px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 li {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    padding: 40px;
-    font-size: 34px;
+  padding: 40px;
+  font-size: 28px;
+  text-align: center;
+}
+li::before {
+  content: "";
+  background-image: url("./images/creative-colorful-hands-kid.png");
+  background-size: 80px 50px;
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  padding-right: 15px;
+  content: "";
+}
+.banner {
+  background-image: url(./images/tree-planting.jpg);
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mapcontainer {
+  display: flex;
+  width: 1024;
+  height: 490;
+  margin-top: 40px;
 }
